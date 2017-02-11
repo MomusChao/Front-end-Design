@@ -14,8 +14,8 @@
 #### 11. Tables : 42-53
 #### 12. List : 54-63
 #### 13. Blocks : 64
-#### 14. class Attribute : 65-66
-#### 15. layouts : 67
+#### 14. Class Attribute : 65-66
+#### 15. Layouts : 67
 #### 16. Forms : 68-77
 # 
 
