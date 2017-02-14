@@ -1,0 +1,32 @@
+<!-- Create an object  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <TITLE> Object</TITLE>
+    <script>
+        function employee(name,salary,position)
+        {
+            this.name=name
+            this.salary=salary
+            this.position=position
+            this.display=display
+        }
+
+        function display()
+        {
+            document.write("EmployeeName:"+this.name+" Salary:"+this.salary+"Position:"+this.position+"<hr>")
+        }
+    </script>
+</head>
+
+<body>
+<script>
+    document.write("<b>"+"Our Employee List:"+"</b>"+"<hr>")
+    emp1=new employee("Momus",85000,"Manager")
+    emp1.display()
+    emp2=new employee("Eva",70000,"Vice-Manager")
+    emp2.display()
+</script>
+</body>
+</html>
