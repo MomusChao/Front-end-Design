@@ -1,0 +1,21 @@
+<!-- onclick attribute-->
+
+<!--JavaScript code is often several lines long. It is more common to see event attributes calling functions-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the date:</p>
+
+<button onclick="displayDate()">Time click</button>
+
+<script>
+    function displayDate() {
+        document.getElementById("demo").innerHTML = Date();
+    }
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html>
