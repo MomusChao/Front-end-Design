@@ -1,0 +1,17 @@
+<!--  access object properties in two ways: 02  -->
+
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+    var person = {
+        firstName: "Momus",
+        lastName : "Steven",
+        id       :  13745
+    };
+    document.getElementById("demo").innerHTML =
+            person["firstName"] + " " + person["lastName"];
+</script>
+</body>
+</html>
