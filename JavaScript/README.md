@@ -1,7 +1,7 @@
 # JavaScript
 ### Description of each files: 
 # 
-#### 1. Beginningn : 01-03
+#### 1. Beginning : 01-03
 #### 2. Comments : 04
 #### 3. Data Type : 05-08
 #### 4. Operator : 09-14
