@@ -7,7 +7,7 @@
 #### 4. Operator : 09-14
 #### 5. Loop : 15-17
 #### 6. Continues : 18
-#### 7. Breakr : 19
+#### 7. Break : 19
 #### 8. Function : 20-22
 #### 9. Object : 23-28
 #### 10. Scope : 29-32
