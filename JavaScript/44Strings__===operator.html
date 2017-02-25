@@ -1,0 +1,20 @@
+<!-- == operator -->
+
+<!--When using the === operator, equal strings are not equal,
+because the === operator expects equality in both type and value.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<p id="demo"></p>
+
+<script>
+    var x = "Momus";              // x is a string
+    var y = new String("Momus");  // y is an object
+    document.getElementById("demo").innerHTML = (x===y);
+</script>
+
+</body>
+</html>
+
+<!--Reference: https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Equality_comparisons_and_sameness-->
